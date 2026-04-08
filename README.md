@@ -1,6 +1,6 @@
 # Global Tax Data Collection
 
-A centralized web application for collecting tax-related information from all country operations to support Liberty Mutual's tax planning and reporting.
+A web application for collecting tax-related information from all country operations to support Liberty Mutual's tax planning and reporting.
 
 ## Overview
 
