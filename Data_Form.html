@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Tax Submission Form</title>
+</head>
+<body>
+    <h1>Q1 2026 Tax Questionnaire</h1>
+    <form>
+        <label for="fullName">1. Please provide your full name.</label><br>
+        <br>
+        <input type="text" name="fullName" id="fullName" placeholder="First Name Last Name" autofocus required> *<br>
+        <br>
+        <br>
+        <label>2. Please select your country of operation.</label>
+        <br>
+        <br>
+        <input type="checkbox" name="Australia"/> Australia <br>
+        <input type="checkbox" name="Bermuda"/> Bermuda <br>
+        <input type="checkbox" name="Brazil"/> Brazil <br>
+        <input type="checkbox" name="Canada"/> Canada
+        <br>
+        <br>
+        <br>
+        <label>3. What is your operation's functional currency?</label> 
+        <br>       
+        <br>
+        <select>
+            <option value="AUD">AUD</option>
+            <option value="BRL">BRL</option>
+            <option value="CAD">CAD</option>
+            <option value="USD">USD</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="income">4. Please provide this year's projected pre-tax income / (loss) amount.</label><br>
+        <br>
+        <input type="number" name="income" id="income" size="6"><br>
+        <br>
+        <br>
+        <label for="expense">5. Please provide this year's total tax (expense) / benefit amount.</label><br>
+        <br>
+        <input type="number" name="expense" id="expense" size="6"><br>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
